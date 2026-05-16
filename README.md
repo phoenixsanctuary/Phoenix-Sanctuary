@@ -42,3 +42,37 @@ L'utilisation, la copie et la fabrication de ce système sont **entièrement gra
 En accord avec l'Enveloppe Soleau déposée auprès de l'INPI :
 * Toute exploitation commerciale ou industrielle par une entreprise privée est **strictement interdite** sans accord écrit.
 * Toute utilisation de cette technologie à des fins de surveillance de masse, d'espionnage, de traçage non consenti ou à des fins militaires est **formellement interdite**. (Voir les détails dans le fichier `LICENSE.txt`).
+
+* ---
+
+# 🕊️ Phoenix Sanctuary — International Version
+
+**A humanitarian, open-source project dedicated to earth and biological conduction communication, guided by ethical AI principles.**
+
+This repository contains the source code for the two experimental validation modules described in our feasibility audit (*PROTO 1 - Contact* and *PROTO 2 - Soil*). **These prototypes are currently in a testing and research phase. The goal is for this system to be tested, measured, and improved by the global open-source community.**
+
+### 🔬 Prototype Architecture
+
+* **Transmitter (`emetteur_tellurique.cpp`):** Generates a stable **10 kHz** square wave signal with a burst pattern option (100ms ON / 100ms OFF) on the ESP32 to drive a MOSFET stage.
+* **Receiver (`recepteur_tellurique.cpp`):** Analyzes incoming pulses using hardware interrupts and filters out ground noise to validate signal detection.
+
+### ⚠️ Safety Guidelines for Testing
+
+In accordance with the feasibility audit protocol:
+1. **Low Voltage Only:** Use exclusively isolated battery power.
+2. **No Ground Loops:** Never connect both the transmitter and receiver to the same computer via USB during testing.
+3. **Monitoring:** Stop immediately if any component overheats or behaves abnormally.
+
+### 🤝 How to Contribute & Test Globally
+
+We welcome engineers, geophysicists, and developers from all over the world to build, test, and optimize this prototype:
+* **Test the 10 kHz signal** in various soil conditions (dry, wet, salted) and document the maximum range.
+* **Improve the filtering algorithm** in the receiver code to better isolate the signal from natural ground noise.
+* Share your findings or report anomalies by opening an **Issue** or submitting a **Pull Request**.
+
+### ⚖️ Intellectual Property & Ethical License
+
+This system is **completely free for humanitarian, civil, NGO, or domestic use**. 
+In accordance with international CC-BY-NC-SA standards:
+* Any commercial or industrial exploitation by private corporations is **strictly prohibited**.
+* Any use of this technology for mass surveillance, non-consensual tracking, or military applications is **strictly forbidden**.
