@@ -1,4 +1,4 @@
-# Phoenix-Sanctuary #esp32, #arduino, #open-source, #hardware, #maker
+# Phoenix-Sanctuary 
 Système humanitaire de communication tellurique et biologique.
 # 🕊️ Phoenix Sanctuary — Projet Officiel
 
